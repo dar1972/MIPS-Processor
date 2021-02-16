@@ -1,0 +1,43 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto b5b60343d3ed4cf8977c2acc39c42395 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MIPs_tb_behav xil_defaultlib.MIPs_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.InstructionMemory [instructionmemory_default]
+Compiling architecture behavioral of entity xil_defaultlib.InstructionFetch [instructionfetch_default]
+Compiling architecture behavioral of entity xil_defaultlib.two_and [two_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.register_module [\register_module(bit_depth=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.generic_decoder [\generic_decoder(log_port_depth=...]
+Compiling architecture behavioral of entity xil_defaultlib.generic_mux [\generic_mux(bit_depth=32,log_po...]
+Compiling architecture behavioral of entity xil_defaultlib.register_file [\register_file(bit_depth=32,log_...]
+Compiling architecture behavioral of entity xil_defaultlib.control_unit [control_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.instruction_decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux [\Mux(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.Mux [\Mux(n=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.sllN [\sllN(n=32,d=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.srlN [\srlN(n=32,d=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.sraN [\sraN(n=32,d=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.alu_and [\alu_and(n=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.alu_or [\alu_or(n=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.alu_xor [\alu_xor(n=32)\]
+Compiling architecture behavior of entity xil_defaultlib.Full_Adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.RippleCarryFullAdder [ripplecarryfulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplier [multiplier_default]
+Compiling architecture structural of entity xil_defaultlib.alu4 [\alu4(n=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.Execute_Stage [execute_stage_default]
+Compiling architecture behave of entity xil_defaultlib.Data_Memory [data_memory_default]
+Compiling architecture behavioral of entity xil_defaultlib.BCDSevenSegConverter [bcdsevensegconverter_default]
+Compiling architecture behavioral of entity xil_defaultlib.SevenSegController [sevensegcontroller_default]
+Compiling architecture behavioral of entity xil_defaultlib.Memory_Stage [memory_stage_default]
+Compiling architecture behavioral of entity xil_defaultlib.WB_Stage [wb_stage_default]
+Compiling architecture structural of entity xil_defaultlib.MIPs [mips_default]
+Compiling architecture testbench of entity xil_defaultlib.mips_tb
+Built simulation snapshot MIPs_tb_behav
